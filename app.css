@@ -1,7 +1,41 @@
-#heading {
-  color: blueviolet;
-  text-align: center;
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
 }
-#child {
-  background-color: aqua;
+.logo {
+  width: 100px;
+}
+
+.nav-items {
+  padding: 0px 20px;
+}
+.nav-items ul {
+  font-size: 24px;
+  list-style: none;
+  display: flex;
+}
+.nav-items ul li {
+  padding: 10px;
+  margin: 10px;
+}
+.search {
+  padding: 10px;
+}
+.res-card {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid black;
+}
+.res-logo {
+  width: 100%;
+}
+.res-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
 }

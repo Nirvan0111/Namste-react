@@ -1,0 +1,31 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Learning react from scratch",
+  "homepage": "https://github.com/Nirvan0111/Namste-react#readme",
+  "bugs": {
+    "url": "https://github.com/Nirvan0111/Namste-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nirvan0111/Namste-react.git"
+  },
+  "license": "ISC",
+  "author": "Nirvan-bobde",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
